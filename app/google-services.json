@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "994803213273",
+    "firebase_url": "https://empro-10900.firebaseio.com",
+    "project_id": "empro-10900",
+    "storage_bucket": "empro-10900.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994803213273:android:2e15f2664e960705",
+        "android_client_info": {
+          "package_name": "com.example.swaleha.empro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994803213273-upao9a8eq3ms66furnlm45v2djk3m1al.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.swaleha.empro",
+            "certificate_hash": "7ccad89a6caf746e30b6f6387bba7824a3a89320"
+          }
+        },
+        {
+          "client_id": "994803213273-ij1evghdtfh8fc0peiceh0tjsfvbe2lu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY0pbt6v4JGWgY8XBRofsuhAJweGwMnqc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994803213273-ij1evghdtfh8fc0peiceh0tjsfvbe2lu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

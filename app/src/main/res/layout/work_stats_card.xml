@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:elevation="4dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#D0B5AF"
+    app:cardCornerRadius="10dp"
+    >
+
+    <TextView
+        android:id="@+id/monthtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:text="Month"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Days Worked:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/daysw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="1"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="100dp"
+        />
+
+    <TextView
+        android:layout_width="171dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="30dp"
+        android:text="Holidays:"
+        android:layout_marginLeft="170dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/cardholiday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentRight="true"
+        android:text="2"
+        android:layout_marginLeft="250dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Days Absent:"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/daysa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="3"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="90dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="Sick Leaves:"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="170dp"
+        />
+
+    <TextView
+        android:id="@+id/cardsick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="4"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="270dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Leaves used:"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="200dp"
+        />
+
+    <TextView
+        android:id="@+id/cardleaveused"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="5"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="90dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Casual leaves:"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="170dp"
+        />
+    <TextView
+        android:id="@+id/cardcasual"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="6"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="270dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:text="Salary :- "
+        android:textSize="20sp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <TextView
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="115dp"
+        android:text="Salary"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+
+</android.support.v7.widget.CardView>
